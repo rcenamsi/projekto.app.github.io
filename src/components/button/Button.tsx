@@ -15,7 +15,7 @@ interface ButtonProps {
     | "warning"
     | undefined;
   size?: "small" | "medium" | "large";
-  variant: "text" | "contained" | "outlined" | undefined;
+  variant: "text" | "contained" | "outlined";
   disabled: boolean;
   label: string;
   startIcon: any;

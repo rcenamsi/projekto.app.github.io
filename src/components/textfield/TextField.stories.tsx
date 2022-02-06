@@ -13,7 +13,6 @@ export default {
 const Template: ComponentStory<typeof TextField> = (args) => <TextField {...args} />
 
 export const Primary = Template.bind({});
-
 Primary.args = {
   label: 'Text field (optional)',
   helperText: 'Input some text'
